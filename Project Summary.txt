@@ -1,0 +1,17 @@
+In the past, manual trading was done using paper certificates. With advancements in machine learning, algorithmic trading has found a base to do real-time transactions
+without human involvement. This offers many benefits including high speed, accuracy, and low costs. The trade algorithms are written beforehand and whenever 
+the conditions for trade are satisfied, the algorithm automatically instructs the transaction. This can yield a higher profit for traders by conducting the right 
+transaction on the right stocks at the right time. It is also independent of human emotions and hence it is not prone to irrational decision-making. 
+It also allows back-testing to understand what components of the trade work by utilizing the learnings of the past.
+
+For this project, we are given a $1 million investment amount on a specific day and the goal is to design an algorithmic strategy that produces the best portfolio. 
+Historical stock market data are given for reference, and the best portfolio is defined as one that maximizes returns for a given risk level that appeals to a
+ risk-averse investor. A few metrics have been chosen to evaluate the overall performance of the trading strategy, including total wealth at the end of the last day,
+ the Sharpe Ratio of the portfolio, and the number of days profit is seen in the trading period. 
+
+To achieve this goal, the group proceeded with the below steps:
+
+●	Description of Data: Overview of the most significant fields.
+●	Feature Engineering: Creation of 3 additional features along with 11 existing engineered features.
+●	Model Algorithms: Selection of the best window and machine learning model for each stock to predict daily return for each day.
+●	Trading Strategy: Identification of the best portfolio and strategic decision for buy, sell and hold to maximize the return for the day given the risk.
